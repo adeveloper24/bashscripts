@@ -1,8 +1,10 @@
 #this script will protect your PC from overheating
 #BEFORE RUNNING THIS SCRIPT YOU MUST INSTALL LM-SENSORS, just write in your terminal ~$ sudo apt-get install lm-sensors
 #then write ~$ sudo sensors-detect, and answer YES for the first two questions, and NO for another two
+
 #!bin/bash
-max_temp=32
+#Write here the maximum allowable temperature for your PC
+max_temp=70
 core_1_temp=0
 core_2_temp=0
 core_3_temp=0
